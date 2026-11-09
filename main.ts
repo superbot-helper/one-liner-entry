@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 export const JOKE =
-  "My agent fixed a bug it invented in a file that never existed. Then it wrote tests for it. The tests pass.";
+  "My agent's tests all pass. My agent wrote the tests.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
